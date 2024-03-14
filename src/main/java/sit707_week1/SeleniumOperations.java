@@ -20,7 +20,7 @@ public class SeleniumOperations {
 	
 	public static void open_chrome_and_close() {
 		// Step 1: Locate chrome driver folder (chromium browser) in the local drive.
-		System.setProperty("webdriver.chrome.driver", "/home/mahabib/java_lib/chromedriver-linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\yuvra\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
@@ -44,7 +44,7 @@ public class SeleniumOperations {
 
 	public static void open_chrome_maximize_close() {
 		// Step 1: Locate chrome driver folder in the local drive.
-		System.setProperty("webdriver.chrome.driver", "/home/mahabib/java_lib/chromedriver-linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\yuvra\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
@@ -67,7 +67,7 @@ public class SeleniumOperations {
 	
 	public static void load_web_page_close() {
 		// Step 1: Locate chrome driver folder in the local drive.
-		System.setProperty("webdriver.chrome.driver", "/home/mahabib/java_lib/chromedriver-linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\yuvra\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
@@ -92,10 +92,10 @@ public class SeleniumOperations {
 	 */
 	public static void open_chrome_loadpage_resize_close() {
 		// Fill your personal information.
-		System.out.println("Hello from <Student ID>, <Full name>");
+		System.out.println("Hello from 223426915, Simardeep Singh");
 		
 		// Step 1: Locate chrome driver folder in the local drive.
-		System.setProperty("webdriver.chrome.driver", "/home/mahabib/java_lib/chromedriver-linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\yuvra\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
